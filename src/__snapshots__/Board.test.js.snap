@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders with all cells lit 1`] = `
+<DocumentFragment>
+  <table
+    class="Board"
+  >
+    <tbody>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          data-testid="0-0"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="0-1"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="0-2"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="0-3"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="0-4"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          data-testid="1-0"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="1-1"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="1-2"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="1-3"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="1-4"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          data-testid="2-0"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="2-1"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="2-2"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="2-3"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="2-4"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          data-testid="3-0"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="3-1"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="3-2"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="3-3"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="3-4"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          data-testid="4-0"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="4-1"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="4-2"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="4-3"
+        />
+        <td
+          class="Cell Cell-lit"
+          data-testid="4-4"
+        />
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`it renders with all cells unlit so the game is won 1`] = `
+<DocumentFragment>
+  <h1>
+    You won the game!
+  </h1>
+</DocumentFragment>
+`;
